@@ -1,0 +1,98 @@
+.container{
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Todo{
+  min-height: 400px;
+  width: 350px;
+ 
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10px);
+}
+.todoNAme{
+  font-size: 2vw;
+  text-align: center;
+  color: burlywood;
+}
+.getInputBox{
+  /* border: 1px solid red; */
+  height: 100px;
+  /* width: 100px; */
+  color: #fff;
+  text-align: center;
+}
+.getValue{
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+  height: 70px;
+  width: 250px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  font-size: 2vw;
+  color: #fff;
+ 
+}
+.getValue:focus{
+  outline: none;
+  
+}
+.add{
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 40px;
+  margin-left: 18px;
+}
+
+.outputBox{
+    /* border: 1px solid red; */
+  height: 100px;
+  width: 350px;
+  color: #fff;
+  
+  
+}
+.ouputValesParent{
+  
+  height: 80px;
+  padding: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ouputValesParent:hover{
+  background-color: gray;
+  border-radius: 40px;
+}
+.outputName{
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 2vw;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.subtact{
+  /* font-size: 2vw; */
+  border: 1px solid white;
+  padding: .5vw;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+
+.parmaDelete{
+  border: 1px solid white;
+  padding: .5vw;
+  border-radius: 40px;
+  margin-top: 20px;
+}
